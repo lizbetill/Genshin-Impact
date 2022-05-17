@@ -91,6 +91,7 @@ button {
 .menu {
     display: flex;
     background: #512600;
+    font-weight: "Forum"
 }
 .menu__link {
     text-decoration: none;
@@ -121,6 +122,7 @@ button {
     flex-direction: column;
     background: #512600;
     margin-right: 15px;
+    font-weight: "Forum"
 }
 .main__menu-link {
     display: flex;
@@ -171,7 +173,7 @@ button {
     position: relative;
     overflow: hidden;
     height: 40px;
-    margin: 0px 0
+    margin: 0px 0;
 }
 #mainmenu ul {
     list-style: none;
@@ -180,7 +182,7 @@ button {
     position: relative;
     left: 50%;
     float: left;
-    font: 14px Helvetica, sans-serif;
+    font: 14px "Forum", Helvetica, sans-serif;
     height: 40px
 }
 #mainmenu ul li {
@@ -210,7 +212,7 @@ button {
     margin-bottom: 60px;
 }
 .content__page {
-    width: 1500px;
+    width: 100%;
     margin-left: 2px;
 }
 .main__about {
