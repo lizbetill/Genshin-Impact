@@ -182,7 +182,7 @@ button {
     position: relative;
     left: 50%;
     float: left;
-    font: 14px "Forum", Helvetica, sans-serif;
+    font: 14px "Forum";
     height: 40px
 }
 #mainmenu ul li {
